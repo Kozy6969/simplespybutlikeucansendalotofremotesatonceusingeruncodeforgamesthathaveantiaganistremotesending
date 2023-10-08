@@ -2045,6 +2045,7 @@ end
 else
  returnvalue = Remote:FireServer(unpack(selected.args))
 end
+end
                 else
 if _G.pluguuguguguguguuguguguguguugugugug then
 if _G.trolling then
@@ -2065,6 +2066,7 @@ else
  returnvalue = Remote:FireServer(unpack(selected.args))
 end
                 end
+end
 
                 TextLabel.Text = ("Executed successfully!\n%s"):format(v2s(returnvalue))
             end,function(err)
