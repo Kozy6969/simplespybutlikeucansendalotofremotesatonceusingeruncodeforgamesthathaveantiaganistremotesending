@@ -2027,6 +2027,16 @@ newButton("Run Code",
             xpcall(function()
                 local returnvalue
                 if Remote:IsA("RemoteEvent") then
+if _G.pluguuguguguguguuguguguguguugugugug then
+if _G.trolling then
+for i = 0,100 do
+                    returnvalue = Remote:FireServer(unpack(selected.args))
+wait(_G.wutitaime)
+end
+else
+ returnvalue = Remote:FireServer(unpack(selected.args))
+end
+else
 if _G.trolling then
 for i = 0,100 do
                     returnvalue = Remote:FireServer(unpack(selected.args))
@@ -2036,13 +2046,23 @@ else
  returnvalue = Remote:FireServer(unpack(selected.args))
 end
                 else
+if _G.pluguuguguguguguuguguguguguugugugug then
 if _G.trolling then
 for i = 0,100 do
-                    returnvalue = Remote:InvokeServer(unpack(selected.args))
+                    returnvalue = Remote:FireServer(unpack(selected.args))
+wait(_G.wutitaime)
+end
+else
+ returnvalue = Remote:FireServer(unpack(selected.args))
+end
+else
+if _G.trolling then
+for i = 0,100 do
+                    returnvalue = Remote:FireServer(unpack(selected.args))
 task.wait()
 end
 else
-returnvalue = Remote:InvokeServer(unpack(selected.args))
+ returnvalue = Remote:FireServer(unpack(selected.args))
 end
                 end
 
